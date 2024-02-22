@@ -3,7 +3,7 @@ import copy from 'rollup-plugin-copy';
 
 export default {
   input: 'src/index.ts',
-  external: ['react'],
+  external: ['react', 'react-dom'],
   output: [
     {
       dir: 'dist',
